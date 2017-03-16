@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+
+.world {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	background: url("../img/bkg_img2.jpg") no-repeat;
+	background-size: 100% 100%;
+	border: 5px solid black;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+}
+
+.level {
+	width: 70px;
+	height: 70px;
+}
+
+.container{
+	width: 50%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.container2{
+	width: 50%;
+	height: 250px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+
+.container3{
+	width: 50%;
+	height: 250px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#world1 {
+	top: 50px;
+	right: 500px;
+	border: 2px solid black;
+	background-image: url("../img/castle.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 0.3s;
+}
+
+#world2 {
+	top: 50px;
+	right: 500px;
+	border: 2px solid black;
+	display: flex;
+	background-image: url("../img/castle2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 0.3s;
+}
+
+#world3 {
+	top: 50px;
+	right: 500px;
+	border: 2px solid black;
+	display: flex;
+	background-image: url("../img/donjon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 0.3s;
+}
+
+.character {
+	position: absolute;
+	z-index: 1;
+	width: 2%;
+	height: 4%;
+	border: 5px solid purple;
+	border-radius: 50%;
+	background-color: #fff;
+}
